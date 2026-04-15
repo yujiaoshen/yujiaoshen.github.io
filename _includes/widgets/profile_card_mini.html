@@ -79,6 +79,12 @@
                         </a>
                         {% endif %}
 
+                        {% if site.data.profile.bilibili %}
+                        <a class="px-1 no-break" target="_blank" href="https://space.bilibili.com/{{ site.data.profile.bilibili }}">
+                            <i class="fab fa-bilibili"></i>
+                        </a>
+                        {% endif %}
+
                         {% if site.data.profile.orcid %}
                         <a class="px-1 no-break" target="_blank" href="https://orcid.org/{{ site.data.profile.orcid }}">
                             <i class="fab fa-orcid"></i>

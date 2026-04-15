@@ -90,3 +90,13 @@ div.lazy {
     font-family: Source Code Pro, monospace;
 }
 
+.edu-logo {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+    border-radius: 4px;
+    padding: 2px;
+    background: #f8f9fa;
+    flex-shrink: 0;
+}
+

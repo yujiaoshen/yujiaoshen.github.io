@@ -22,6 +22,9 @@ navbar_title: Home
         {% if site.data.profile.service and site.data.profile.service.size > 0 %}
             {% assign has_experience_card = true %}
         {% endif %}
+        {% if site.data.profile.outreach and site.data.profile.outreach.size > 0 %}
+            {% assign has_experience_card = true %}
+        {% endif %}
         {% if site.data.display.homepage.show_experience and has_experience_card %}
             {% include widgets/experience_card.html %}
         {% endif %}

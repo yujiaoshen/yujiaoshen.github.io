@@ -44,6 +44,29 @@
                     </div>
                     {% endif %}
 
+                    {% if site.data.profile.outreach and site.data.profile.outreach.size > 0 %}
+                    <div class="col-lg-6">
+                        <div class="mx-2 my-1">
+                            <h6>Outreach</h6>
+                            <ul class="list small pl-3 mb-1">
+                                {% for item in site.data.profile.outreach %}
+                                <li>
+                                    <div class="d-flex">
+                                        <div>
+                                            {{ item.name }}
+                                            {% if item.description %}
+                                            <div class="text-muted">{{ item.description }}</div>
+                                            {% endif %}
+                                        </div>
+                                        <div class="ml-auto mt-auto no-break"><em>{{ item.date }}</em></div>
+                                    </div>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                    {% endif %}
+
                     {% if site.data.profile.awards and site.data.profile.awards.size > 0 %}
                     <div class="col-lg-6">
                         <div class="mx-2 my-1">

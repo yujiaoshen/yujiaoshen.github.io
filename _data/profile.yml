@@ -40,3 +40,10 @@ service:
 - name: >-
     Co-organizer of <a href="https://theaitalks.org/" target="_blank">The AI Talks</a>
   date: 2025 - Present
+
+outreach:
+- name: >-
+    <a href="https://space.bilibili.com/694730358" target="_blank">Deep Learning Educator on Bilibili</a>
+  description: >-
+    Create educational content on deep learning and AI for a public audience, with over 17K followers.
+  date: 2025 - Present

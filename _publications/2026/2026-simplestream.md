@@ -5,7 +5,7 @@ selected:       true
 pub:            "arXiv preprint"
 pub_date:       "2026"
 abstract: >-
-  We introduce SimpleStream, a surprisingly strong baseline for streaming video understanding that uses only the most recent frames from the causal prefix with an off-the-shelf vision-language model. Despite its simplicity, it matches or surpasses more complex streaming methods on OVO-Bench and StreamingBench, highlighting a practical perception-memory trade-off and providing a controlled reference point for future research.
+  SimpleStream shows that a simple sliding-window baseline can already be a strong and efficient solution for streaming video understanding, offering a clean reference point for future long-video reasoning research.
 authors:
   - Yujiao Shen
   - Shulin Tian

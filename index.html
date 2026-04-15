@@ -13,9 +13,6 @@ navbar_title: Home
         {% include widgets/profile_card_bio_only.html %}
 
         {% assign has_experience_card = false %}
-        {% if site.data.profile.education and site.data.profile.education.size > 0 %}
-            {% assign has_experience_card = true %}
-        {% endif %}
         {% if site.data.profile.experience and site.data.profile.experience.size > 0 %}
             {% assign has_experience_card = true %}
         {% endif %}

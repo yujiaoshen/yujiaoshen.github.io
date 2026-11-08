@@ -2,7 +2,7 @@
 title:          "EgoTools: Towards Tool-Centric Reasoning in Real-World Egocentric Videos"
 date:           2026-09-30 00:01:00 +0800
 selected:       true
-pub:            "arXiv preprint"
+pub:            "EMNLP"
 pub_date:       "2026"
 cover:          /assets/images/covers/egotools-teaser.jpg
 abstract: >-
